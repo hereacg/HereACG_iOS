@@ -13,6 +13,7 @@
 		4E18BAD41D97C2DB00D2B834 /* HAUrls.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18BAD31D97C2DB00D2B834 /* HAUrls.m */; };
 		4E18BAD81D97C82800D2B834 /* BSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18BAD71D97C82800D2B834 /* BSTableViewCell.m */; };
 		4E18BADB1D97C89400D2B834 /* MusicTableListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18BADA1D97C89400D2B834 /* MusicTableListCell.m */; };
+		4E18BADE1D97D3A800D2B834 /* MusicPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18BADD1D97D3A800D2B834 /* MusicPlayView.m */; };
 		4E8A8D8C1D97B26500872D1C /* YYWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A8D851D97B26500872D1C /* YYWebImage.framework */; };
 		4E8A8D8D1D97B26500872D1C /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A8D861D97B26500872D1C /* MBProgressHUD.framework */; };
 		4E8A8D8E1D97B26500872D1C /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A8D871D97B26500872D1C /* Masonry.framework */; };
@@ -47,6 +48,8 @@
 		4E18BAD71D97C82800D2B834 /* BSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTableViewCell.m; sourceTree = "<group>"; };
 		4E18BAD91D97C89400D2B834 /* MusicTableListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableListCell.h; sourceTree = "<group>"; };
 		4E18BADA1D97C89400D2B834 /* MusicTableListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableListCell.m; sourceTree = "<group>"; };
+		4E18BADC1D97D3A800D2B834 /* MusicPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayView.h; sourceTree = "<group>"; };
+		4E18BADD1D97D3A800D2B834 /* MusicPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayView.m; sourceTree = "<group>"; };
 		4E8A8D851D97B26500872D1C /* YYWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYWebImage.framework; path = Carthage/Build/iOS/YYWebImage.framework; sourceTree = "<group>"; };
 		4E8A8D861D97B26500872D1C /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = "<group>"; };
 		4E8A8D871D97B26500872D1C /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
@@ -134,6 +137,8 @@
 			children = (
 				4E18BAD91D97C89400D2B834 /* MusicTableListCell.h */,
 				4E18BADA1D97C89400D2B834 /* MusicTableListCell.m */,
+				4E18BADC1D97D3A800D2B834 /* MusicPlayView.h */,
+				4E18BADD1D97D3A800D2B834 /* MusicPlayView.m */,
 			);
 			name = V;
 			sourceTree = "<group>";
@@ -461,6 +466,7 @@
 				4E18BAD11D97C27900D2B834 /* MusicTableViewModel.m in Sources */,
 				4EB71B981D97BD8100C7E9CD /* BSTableViewController.m in Sources */,
 				4EB71BA11D97BD9C00C7E9CD /* BSTableViewModel.m in Sources */,
+				4E18BADE1D97D3A800D2B834 /* MusicPlayView.m in Sources */,
 				4EB71B971D97BD8100C7E9CD /* BSNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
