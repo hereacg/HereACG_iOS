@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0F8F23B55DAEEF1D42D47933 /* libPods-HereACG_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EC7FA8ACE147B4DD40B8A9 /* libPods-HereACG_iOS.a */; };
+		4E18BACB1D97C1D200D2B834 /* MusicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18BACA1D97C1D200D2B834 /* MusicTableViewController.m */; };
+		4E18BAD11D97C27900D2B834 /* MusicTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18BAD01D97C27900D2B834 /* MusicTableViewModel.m */; };
+		4E18BAD41D97C2DB00D2B834 /* HAUrls.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18BAD31D97C2DB00D2B834 /* HAUrls.m */; };
+		4E18BAD81D97C82800D2B834 /* BSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18BAD71D97C82800D2B834 /* BSTableViewCell.m */; };
+		4E18BADB1D97C89400D2B834 /* MusicTableListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E18BADA1D97C89400D2B834 /* MusicTableListCell.m */; };
 		4E8A8D8C1D97B26500872D1C /* YYWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A8D851D97B26500872D1C /* YYWebImage.framework */; };
 		4E8A8D8D1D97B26500872D1C /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A8D861D97B26500872D1C /* MBProgressHUD.framework */; };
 		4E8A8D8E1D97B26500872D1C /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A8D871D97B26500872D1C /* Masonry.framework */; };
@@ -20,10 +25,28 @@
 		4E9ECAE41D97A6FE00ACE232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9ECAE31D97A6FE00ACE232 /* AppDelegate.m */; };
 		4E9ECAEC1D97A6FE00ACE232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9ECAEB1D97A6FE00ACE232 /* Assets.xcassets */; };
 		4E9ECAEF1D97A6FE00ACE232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9ECAED1D97A6FE00ACE232 /* LaunchScreen.storyboard */; };
+		4EB71B841D97B9C200C7E9CD /* MusicListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB71B831D97B9C200C7E9CD /* MusicListModel.m */; };
+		4EB71B871D97B9CE00C7E9CD /* MusicEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB71B861D97B9CE00C7E9CD /* MusicEntity.m */; };
+		4EB71B8B1D97BC0500C7E9CD /* HANetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB71B8A1D97BC0500C7E9CD /* HANetworkEngine.m */; };
+		4EB71B971D97BD8100C7E9CD /* BSNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB71B911D97BD8100C7E9CD /* BSNavigationViewController.m */; };
+		4EB71B981D97BD8100C7E9CD /* BSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB71B931D97BD8100C7E9CD /* BSTableViewController.m */; };
+		4EB71B991D97BD8100C7E9CD /* BSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB71B951D97BD8100C7E9CD /* BSViewController.m */; };
+		4EB71BA11D97BD9C00C7E9CD /* BSTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB71B9D1D97BD9C00C7E9CD /* BSTableViewModel.m */; };
+		4EB71BA21D97BD9C00C7E9CD /* BSViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB71B9F1D97BD9C00C7E9CD /* BSViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41EC7FA8ACE147B4DD40B8A9 /* libPods-HereACG_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HereACG_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E18BAC91D97C1D200D2B834 /* MusicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableViewController.h; sourceTree = "<group>"; };
+		4E18BACA1D97C1D200D2B834 /* MusicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewController.m; sourceTree = "<group>"; };
+		4E18BACF1D97C27900D2B834 /* MusicTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableViewModel.h; sourceTree = "<group>"; };
+		4E18BAD01D97C27900D2B834 /* MusicTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewModel.m; sourceTree = "<group>"; };
+		4E18BAD21D97C2DB00D2B834 /* HAUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAUrls.h; sourceTree = "<group>"; };
+		4E18BAD31D97C2DB00D2B834 /* HAUrls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAUrls.m; sourceTree = "<group>"; };
+		4E18BAD61D97C82800D2B834 /* BSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTableViewCell.h; sourceTree = "<group>"; };
+		4E18BAD71D97C82800D2B834 /* BSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTableViewCell.m; sourceTree = "<group>"; };
+		4E18BAD91D97C89400D2B834 /* MusicTableListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableListCell.h; sourceTree = "<group>"; };
+		4E18BADA1D97C89400D2B834 /* MusicTableListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableListCell.m; sourceTree = "<group>"; };
 		4E8A8D851D97B26500872D1C /* YYWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYWebImage.framework; path = Carthage/Build/iOS/YYWebImage.framework; sourceTree = "<group>"; };
 		4E8A8D861D97B26500872D1C /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = "<group>"; };
 		4E8A8D871D97B26500872D1C /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
@@ -41,6 +64,24 @@
 		4E9ECAEB1D97A6FE00ACE232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E9ECAEE1D97A6FE00ACE232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E9ECAF01D97A6FE00ACE232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB71B821D97B9C200C7E9CD /* MusicListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListModel.h; sourceTree = "<group>"; };
+		4EB71B831D97B9C200C7E9CD /* MusicListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListModel.m; sourceTree = "<group>"; };
+		4EB71B851D97B9CE00C7E9CD /* MusicEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicEntity.h; sourceTree = "<group>"; };
+		4EB71B861D97B9CE00C7E9CD /* MusicEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicEntity.m; sourceTree = "<group>"; };
+		4EB71B891D97BC0500C7E9CD /* HANetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HANetworkEngine.h; sourceTree = "<group>"; };
+		4EB71B8A1D97BC0500C7E9CD /* HANetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HANetworkEngine.m; sourceTree = "<group>"; };
+		4EB71B901D97BD8100C7E9CD /* BSNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNavigationViewController.h; sourceTree = "<group>"; };
+		4EB71B911D97BD8100C7E9CD /* BSNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNavigationViewController.m; sourceTree = "<group>"; };
+		4EB71B921D97BD8100C7E9CD /* BSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTableViewController.h; sourceTree = "<group>"; };
+		4EB71B931D97BD8100C7E9CD /* BSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTableViewController.m; sourceTree = "<group>"; };
+		4EB71B941D97BD8100C7E9CD /* BSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSViewController.h; sourceTree = "<group>"; };
+		4EB71B951D97BD8100C7E9CD /* BSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSViewController.m; sourceTree = "<group>"; };
+		4EB71B961D97BD8100C7E9CD /* BSViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSViewControllerProtocol.h; sourceTree = "<group>"; };
+		4EB71B9C1D97BD9C00C7E9CD /* BSTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTableViewModel.h; sourceTree = "<group>"; };
+		4EB71B9D1D97BD9C00C7E9CD /* BSTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTableViewModel.m; sourceTree = "<group>"; };
+		4EB71B9E1D97BD9C00C7E9CD /* BSViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSViewModel.h; sourceTree = "<group>"; };
+		4EB71B9F1D97BD9C00C7E9CD /* BSViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSViewModel.m; sourceTree = "<group>"; };
+		4EB71BA01D97BD9C00C7E9CD /* BSViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSViewModelProtocol.h; sourceTree = "<group>"; };
 		6924ED4955DDBF96BA904D58 /* Pods-HereACG_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HereACG_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HereACG_iOS/Pods-HereACG_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C0D21A60247F4772207B949F /* Pods-HereACG_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HereACG_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HereACG_iOS/Pods-HereACG_iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,9 +120,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4E18BACC1D97C1D900D2B834 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				4E18BAC91D97C1D200D2B834 /* MusicTableViewController.h */,
+				4E18BACA1D97C1D200D2B834 /* MusicTableViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		4E18BACD1D97C25600D2B834 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				4E18BAD91D97C89400D2B834 /* MusicTableListCell.h */,
+				4E18BADA1D97C89400D2B834 /* MusicTableListCell.m */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		4E18BACE1D97C25C00D2B834 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				4E18BACF1D97C27900D2B834 /* MusicTableViewModel.h */,
+				4E18BAD01D97C27900D2B834 /* MusicTableViewModel.m */,
+			);
+			name = VM;
+			sourceTree = "<group>";
+		};
+		4E18BAD51D97C7FB00D2B834 /* BSV */ = {
+			isa = PBXGroup;
+			children = (
+				4E18BAD61D97C82800D2B834 /* BSTableViewCell.h */,
+				4E18BAD71D97C82800D2B834 /* BSTableViewCell.m */,
+			);
+			name = BSV;
+			sourceTree = "<group>";
+		};
 		4E8A8D941D97B3D200872D1C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4EB71B821D97B9C200C7E9CD /* MusicListModel.h */,
+				4EB71B831D97B9C200C7E9CD /* MusicListModel.m */,
+				4EB71B851D97B9CE00C7E9CD /* MusicEntity.h */,
+				4EB71B861D97B9CE00C7E9CD /* MusicEntity.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -116,8 +197,11 @@
 		4E9ECADE1D97A6FE00ACE232 /* HereACG_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				4EB71B8E1D97BD0500C7E9CD /* BaseModule */,
+				4EB71B881D97BBEB00C7E9CD /* Network */,
 				4E8A8D971D97B4E800872D1C /* Category */,
 				4E8A8D941D97B3D200872D1C /* Model */,
+				4EB71B8F1D97BD1000C7E9CD /* MusicTable */,
 				4E9ECAE21D97A6FE00ACE232 /* AppDelegate.h */,
 				4E9ECAE31D97A6FE00ACE232 /* AppDelegate.m */,
 				4E9ECAEB1D97A6FE00ACE232 /* Assets.xcassets */,
@@ -135,6 +219,63 @@
 				4E8A8D951D97B3FF00872D1C /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EB71B881D97BBEB00C7E9CD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4EB71B891D97BC0500C7E9CD /* HANetworkEngine.h */,
+				4EB71B8A1D97BC0500C7E9CD /* HANetworkEngine.m */,
+				4E18BAD21D97C2DB00D2B834 /* HAUrls.h */,
+				4E18BAD31D97C2DB00D2B834 /* HAUrls.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4EB71B8E1D97BD0500C7E9CD /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				4E18BAD51D97C7FB00D2B834 /* BSV */,
+				4EB71B9B1D97BD8F00C7E9CD /* BSVM */,
+				4EB71B9A1D97BD8600C7E9CD /* BSVC */,
+			);
+			path = BaseModule;
+			sourceTree = "<group>";
+		};
+		4EB71B8F1D97BD1000C7E9CD /* MusicTable */ = {
+			isa = PBXGroup;
+			children = (
+				4E18BACE1D97C25C00D2B834 /* VM */,
+				4E18BACD1D97C25600D2B834 /* V */,
+				4E18BACC1D97C1D900D2B834 /* VC */,
+			);
+			path = MusicTable;
+			sourceTree = "<group>";
+		};
+		4EB71B9A1D97BD8600C7E9CD /* BSVC */ = {
+			isa = PBXGroup;
+			children = (
+				4EB71B901D97BD8100C7E9CD /* BSNavigationViewController.h */,
+				4EB71B911D97BD8100C7E9CD /* BSNavigationViewController.m */,
+				4EB71B921D97BD8100C7E9CD /* BSTableViewController.h */,
+				4EB71B931D97BD8100C7E9CD /* BSTableViewController.m */,
+				4EB71B941D97BD8100C7E9CD /* BSViewController.h */,
+				4EB71B951D97BD8100C7E9CD /* BSViewController.m */,
+				4EB71B961D97BD8100C7E9CD /* BSViewControllerProtocol.h */,
+			);
+			name = BSVC;
+			sourceTree = "<group>";
+		};
+		4EB71B9B1D97BD8F00C7E9CD /* BSVM */ = {
+			isa = PBXGroup;
+			children = (
+				4EB71B9C1D97BD9C00C7E9CD /* BSTableViewModel.h */,
+				4EB71B9D1D97BD9C00C7E9CD /* BSTableViewModel.m */,
+				4EB71B9E1D97BD9C00C7E9CD /* BSViewModel.h */,
+				4EB71B9F1D97BD9C00C7E9CD /* BSViewModel.m */,
+				4EB71BA01D97BD9C00C7E9CD /* BSViewModelProtocol.h */,
+			);
+			name = BSVM;
 			sourceTree = "<group>";
 		};
 		BCE78AF1A5A1611469E1359C /* Pods */ = {
@@ -305,9 +446,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB71B991D97BD8100C7E9CD /* BSViewController.m in Sources */,
+				4E18BACB1D97C1D200D2B834 /* MusicTableViewController.m in Sources */,
+				4EB71BA21D97BD9C00C7E9CD /* BSViewModel.m in Sources */,
 				4E9ECAE41D97A6FE00ACE232 /* AppDelegate.m in Sources */,
+				4E18BADB1D97C89400D2B834 /* MusicTableListCell.m in Sources */,
+				4E18BAD41D97C2DB00D2B834 /* HAUrls.m in Sources */,
+				4E18BAD81D97C82800D2B834 /* BSTableViewCell.m in Sources */,
+				4EB71B871D97B9CE00C7E9CD /* MusicEntity.m in Sources */,
+				4EB71B841D97B9C200C7E9CD /* MusicListModel.m in Sources */,
 				4E9ECAE11D97A6FE00ACE232 /* main.m in Sources */,
 				4E8A8D9A1D97B4EF00872D1C /* UIViewController+MBProgressHUD.m in Sources */,
+				4EB71B8B1D97BC0500C7E9CD /* HANetworkEngine.m in Sources */,
+				4E18BAD11D97C27900D2B834 /* MusicTableViewModel.m in Sources */,
+				4EB71B981D97BD8100C7E9CD /* BSTableViewController.m in Sources */,
+				4EB71BA11D97BD9C00C7E9CD /* BSTableViewModel.m in Sources */,
+				4EB71B971D97BD8100C7E9CD /* BSNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

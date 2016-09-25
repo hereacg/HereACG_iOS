@@ -14,19 +14,25 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - DOUAudioStreamer (0.2.15)
+  - MJRefresh (3.1.12)
   - OpenUDID (1.0.0)
   - WPAttributedMarkup (1.0.0)
 
 DEPENDENCIES:
   - BlocksKit (= 2.2.5)
+  - DOUAudioStreamer
+  - MJRefresh
   - OpenUDID (~> 1.0.0)
   - WPAttributedMarkup
 
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  DOUAudioStreamer: 14f217bab01b52171fc2bd7d96e1f8fdd50fce68
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
   WPAttributedMarkup: eb50878af4ec647d8d2090f721a5cfe7d29c27fe
 
-PODFILE CHECKSUM: 3e5c891119e52f74df8d06ab10338bac43f81b8a
+PODFILE CHECKSUM: 2e5b605f41f5f9525cdaf762a45733f440a8cb58
 
 COCOAPODS: 1.0.1

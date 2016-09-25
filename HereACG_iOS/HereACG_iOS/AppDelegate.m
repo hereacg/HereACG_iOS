@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MusicTableViewController.h"
+#import "BSNavigationViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +20,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    MusicTableViewController *vc = [[MusicTableViewController alloc] initWithViewModel:[[MusicTableViewModel alloc] initWithParams:nil]];
+    BSNavigationViewController *bsVC = [[BSNavigationViewController alloc] initWithRootViewController:vc];
+    
+    self.window.rootViewController = bsVC;
     
     [self.window makeKeyAndVisible];
     return YES;

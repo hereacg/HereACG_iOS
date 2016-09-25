@@ -7,6 +7,8 @@ def pods
     pod 'OpenUDID', '~> 1.0.0'
     #pod 'AVOSCloud', '~> 3.4.0-beta.3'
     #pod 'SDCycleScrollView'
+    pod 'DOUAudioStreamer'
+    pod 'MJRefresh'
 end
 
 target 'HereACG_iOS' do

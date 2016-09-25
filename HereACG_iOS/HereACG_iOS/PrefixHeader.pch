@@ -16,6 +16,8 @@
 #import "UIViewController+MBProgressHUD.h"
 #import <BlocksKit/BlocksKit+UIKit.h>
 #import <YYWebImage/YYWebImage.h>
+#import "HANetworkEngine.h"
+#import "HAUrls.h"
 
 /*--------------------------------开发中常用到的宏定义-----------------------------------*/
 
