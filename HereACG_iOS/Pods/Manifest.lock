@@ -1,0 +1,32 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - OpenUDID (1.0.0)
+  - WPAttributedMarkup (1.0.0)
+
+DEPENDENCIES:
+  - BlocksKit (= 2.2.5)
+  - OpenUDID (~> 1.0.0)
+  - WPAttributedMarkup
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  WPAttributedMarkup: eb50878af4ec647d8d2090f721a5cfe7d29c27fe
+
+PODFILE CHECKSUM: 3e5c891119e52f74df8d06ab10338bac43f81b8a
+
+COCOAPODS: 1.0.1

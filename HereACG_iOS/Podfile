@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, ‘9.0’
+
+def pods
+    pod 'BlocksKit', '2.2.5'
+    pod 'WPAttributedMarkup'
+    pod 'OpenUDID', '~> 1.0.0'
+    #pod 'AVOSCloud', '~> 3.4.0-beta.3'
+    #pod 'SDCycleScrollView'
+end
+
+target 'HereACG_iOS' do
+    pods
+end

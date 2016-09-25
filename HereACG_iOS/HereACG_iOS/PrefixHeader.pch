@@ -1,0 +1,81 @@
+//
+//  PrefixHeader.pch
+//  HereACG_iOS
+//
+//  Created by 石云洋 on 2016/9/25.
+//  Copyright © 2016年 石云洋. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <Masonry/Masonry.h>
+#import <Mantle/Mantle.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import "UIViewController+MBProgressHUD.h"
+#import <BlocksKit/BlocksKit+UIKit.h>
+#import <YYWebImage/YYWebImage.h>
+
+/*--------------------------------开发中常用到的宏定义-----------------------------------*/
+
+// 颜色的转换
+#define RGBCOLOR(r,g,b)             [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define RGBACOLOR(r,g,b,a)          [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+//16进制色值
+#define HexRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define HexRGBAlpha(rgbValue, a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(a)]
+
+//设置系统默认字体的字号
+#define FONT(x)             [UIFont systemFontOfSize:x]
+#define BOLDFONT(x)         [UIFont boldSystemFontOfSize:x]
+
+//导航条高度
+#define CUSTOM_NAV_HEIGHT            44
+//当前版本号
+#define Current_Version              [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+#define Current_Build                [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
+
+//常用系统库
+#define USER_DEFAULT                [NSUserDefaults standardUserDefaults]
+#define NOTIFICATION_CENTER         [NSNotificationCenter defaultCenter]
+
+//沙盒存储路径
+#define HomeDirectory               [NSHomeDirectory() stringByAppendingString:@"/Documents/"]
+
+//缓存路径
+#define APP_CACHES_PATH             [NSSearchPathForDirectoriesInDomains (NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r,g,b) RGBA(r,g,b,1.0f)
+
+//屏幕物理宽、高
+#define APP_SCREEN_WIDTH            [UIScreen mainScreen].bounds.size.width
+#define APP_SCREEN_HEIGHT           [UIScreen mainScreen].bounds.size.height
+
+//与iPhone5比较的尺寸缩放值
+#define kScaleFrom_iPhone5_Desgin(_X_) (_X_ * (APP_SCREEN_WIDTH/320))
+#define kScaleFrom_iPhone6_Desgin(_X_) (_X_ * (APP_SCREEN_WIDTH/375))
+
+//手机版本
+#define Current_device_vesion       [[[UIDevice currentDevice] systemVersion] floatValue]
+
+//按屏幕尺寸确定手机
+#define kDevice_Is_iPhone4 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+
+//比较当前系统版本号与输入值(NSString)
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+//weakself 用与防止循环引用
+#define WS(weakSelf)                __weak __typeof(&*self)weakSelf = self;
+
+#endif /* PrefixHeader_pch */
